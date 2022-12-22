@@ -7,6 +7,7 @@ parser.add_argument('--match_type', type=str,
 					default='exhaustive_matcher', help='type of matcher used.  Valid options: \
 					exhaustive_matcher sequential_matcher.  Other matchers not supported at this time')
 parser.add_argument('scenedir', type=str,
+					default='C:/Users/huang/Desktop/nerf-pytorch/data/nerf_llff_data/apple',  # 添加图片的路径
                     help='input scene directory')
 args = parser.parse_args()
 
